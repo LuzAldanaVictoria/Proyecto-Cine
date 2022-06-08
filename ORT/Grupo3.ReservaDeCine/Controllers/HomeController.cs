@@ -238,7 +238,7 @@ namespace Grupo3.ReservaDeCine.Controllers
                 {
                     Sala = sala1,
                     Pelicula = pelicula1,
-                    Fecha = new DateTime(2020, 08, 15),
+                    Fecha = new DateTime(2022, 07, 15),
                     Horario = new DateTime().AddHours(14).AddMinutes(00),
                     CantButacasDisponibles = sala1.CapacidadTotal - 4
                 };
@@ -247,7 +247,7 @@ namespace Grupo3.ReservaDeCine.Controllers
                 {
                     Sala = sala2,
                     Pelicula = pelicula2,
-                    Fecha = new DateTime(2020, 04, 17),
+                    Fecha = new DateTime(2022,06, 17),
                     Horario = new DateTime().AddHours(20).AddMinutes(20),
                     CantButacasDisponibles = sala2.CapacidadTotal - 4
                 };
@@ -256,7 +256,7 @@ namespace Grupo3.ReservaDeCine.Controllers
                 {
                     Sala = sala3,
                     Pelicula = pelicula3,
-                    Fecha = new DateTime(2020, 08, 17),
+                    Fecha = new DateTime(2020, 06, 18),
                     Horario = new DateTime().AddHours(20).AddMinutes(20),
                     CantButacasDisponibles = sala3.CapacidadTotal -8
                 };
@@ -265,7 +265,7 @@ namespace Grupo3.ReservaDeCine.Controllers
                 {
                     Sala = sala4,
                     Pelicula = pelicula1,
-                    Fecha = new DateTime(2020, 08, 17),
+                    Fecha = new DateTime(2020, 06, 17),
                     Horario = new DateTime().AddHours(21).AddMinutes(40),
                     CantButacasDisponibles = sala4.CapacidadTotal -18
                 };
@@ -274,7 +274,7 @@ namespace Grupo3.ReservaDeCine.Controllers
                 {
                     Sala = sala1,
                     Pelicula = pelicula3,
-                    Fecha = new DateTime(2020, 07, 15),
+                    Fecha = new DateTime(2022, 09, 15),
                     Horario = new DateTime().AddHours(23).AddMinutes(30),
                     CantButacasDisponibles = sala1.CapacidadTotal
                 };
@@ -283,7 +283,7 @@ namespace Grupo3.ReservaDeCine.Controllers
                 {
                     Sala = sala2,
                     Pelicula = pelicula2,
-                    Fecha = new DateTime(2020, 07, 15),
+                    Fecha = new DateTime(2022, 07, 15),
                     Horario = new DateTime().AddHours(18).AddMinutes(30),
                     CantButacasDisponibles = sala2.CapacidadTotal
                 };
